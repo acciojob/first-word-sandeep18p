@@ -1,4 +1,4 @@
-function firstWord(s) {
+function firstWord(str) {
     let startIndex = 0;
 
     while (startIndex < str.length && str[startIndex] === ' ') {
